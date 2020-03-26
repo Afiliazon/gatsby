@@ -1,0 +1,14 @@
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css';
+@import '../dist/css/main.css';
+@import '../dist/css/vendor/magnific-popup.css';
+@import '../dist/css/vendor/owl.carousel.min.css';
+@import '../dist/css/vendor/owl.theme.default.min.css';
+.img2 {
+    margin: 0 1rem 3.6rem;
+    max-height: 9rem;
+}
+.gatsby-image-outer-wrapper {
+    display: contents;
+  }
+
+
