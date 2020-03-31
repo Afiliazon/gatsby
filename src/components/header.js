@@ -6,6 +6,7 @@ import { withPrefix, Link } from "gatsby"
 
 
 const Header = ({ siteTitle }) => (
+
   <header className="page-header">
           <div className="container">
             <nav className="navbar navbar-expand-lg align-items-center">
@@ -64,11 +65,11 @@ const Header = ({ siteTitle }) => (
           </div>
           {/* End of .container */}
           <Helmet>
-   
-       
-      
-      
-    <script src={withPrefix('jquery.min.js')} type="text/javascript" />
+          <script
+          src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossOrigin="anonymous"
+        ></script>
     <script src={withPrefix('jquery-migrate.min.js')} type="text/javascript" />
     <script src={withPrefix('easing-1.3.js')} type="text/javascript" />
     <script src={withPrefix('bootstrap.bundle.min.js')} type="text/javascript" />
@@ -80,9 +81,7 @@ const Header = ({ siteTitle }) => (
     <script src={withPrefix('jquery.magnific-popup.min.js')} type="text/javascript" />
     <script src={withPrefix('plugins.js')} type="text/javascript" />
     <script src={withPrefix('main.min.js')} type="text/javascript" />
-    
-   
-</Helmet>
+ </Helmet>
         </header>
   
 )
