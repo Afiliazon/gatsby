@@ -10,8 +10,6 @@ const React = require("react")
 exports.onRenderBody = ({setPostBodyComponents}) => {
           setPostBodyComponents([
             <script type="text/javascript" src={"jquery.min.js"}/>,
-            <script type="text/javascript" src={"jquery-migrate.min.js"} />,
-            <script type="text/javascript" src={"easing-1.3.js"}  />,
             <script type="text/javascript" src={"bootstrap.bundle.min.js"} />,
             <script type="text/javascript" src={"isotope.pkgd.min.js"}  />,
             <script type="text/javascript" src={"jquery.waypoints.min.js"}  />,
