@@ -65,8 +65,10 @@ const Header = ({ siteTitle }) => (
           </div>
           {/* End of .container */}
           <Helmet>
+          
           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" type="text/javascript" />   
           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.1.0/jquery-migrate.min.js" type="text/javascript" />  
+    <script src={withPrefix('jquery.min.js')} type="text/javascript" />      
     <script src={withPrefix('jquery-migrate.min.js')} type="text/javascript" />
     <script src={withPrefix('easing-1.3.js')} type="text/javascript" />
     <script src={withPrefix('bootstrap.bundle.min.js')} type="text/javascript" />
