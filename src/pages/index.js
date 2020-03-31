@@ -777,7 +777,7 @@ const IndexPage = () => (
             <div className="tab-content location-tab-content grid-wrapper" id="myTabContent">
               <div className="tab-pane fade show active" id="location-tab-1">
               </div>
-              <Image className="img-fluid" filename="mapa.jpg" alt="reviewer image" />
+              <Image className="img-fluid" filename="mapa.jpg" alt="Afiliazon" />
             </div>
             {/* End of .tab-content */}
             <div className="contact-info">
