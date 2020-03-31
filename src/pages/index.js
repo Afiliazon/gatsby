@@ -770,7 +770,7 @@ const IndexPage = () => (
             <h2 className="section-title text-center">Our Location</h2>
             <ul className="nav nav-tabs location-tab justify-content-center" role="tablist">
               <li className="nav-item">
-                <a className="nav-link active" data-toggle="tab" href="#location-tab-1">Los Angeles</a>
+                <a className="nav-link active" data-toggle="tab" href="#location-tab-1">Alicante</a>
               </li>     
             </ul>
             {/* End of .nav-tabs */}
